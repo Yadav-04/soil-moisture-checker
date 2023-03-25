@@ -50,12 +50,7 @@ function Graph() {
     fetchData();
   }, []);
 
-  return (
-    <div>
-      {/* <Line data={data} /> */}
-      {`data: ${JSON.stringify(data.datasets)}`}
-    </div>
-  );
+  return <div>{`data: ${JSON.stringify(data.datasets)}`}</div>;
 }
 
 export default Graph;
