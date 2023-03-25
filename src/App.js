@@ -1,14 +1,13 @@
-import Graph from "./componenets/graph"
+import Graph from "./componenets/graph";
 import MyNavbar from "./componenets/MyNavbar";
 
 function App() {
   return (
     <div className="App">
-      <MyNavbar/>
-      <Graph/>
+      <MyNavbar />
+      <Graph />
     </div>
   );
 }
 
 export default App;
-
